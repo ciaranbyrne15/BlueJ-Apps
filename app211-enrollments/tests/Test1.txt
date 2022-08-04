@@ -1,0 +1,12 @@
+Course cybersecurity = new Course("MT1CYS1", "Cyber Security");
+Student ciaran = new Student("Ciaran", 22133695);
+ciaran.enrol(cybersecurity);
+ciaran.print();
+ Student ID: 22133695 Name: Ciaran
+cybersecurity.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: MT1CYS1: Cyber Security
+
