@@ -1,0 +1,60 @@
+Course cybersecurity = new Course("MT1CYS1", "Cyber Security");
+Student ciaran = new Student("Ciaran", 22133695);
+ciaran.enrol(cybersecurity);
+ciaran.print();
+ Student ID: 22133695 Name: Ciaran
+cybersecurity.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: MT1CYS1: Cyber Security
+
+Module programming = new Module();
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452: Programming Concepts
+
+Module programming = new Module("CO452", "Programming Concepts");
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ --------------------------------
+   App211: Module Details
+ --------------------------------
+
+ Module Code: CO452: Programming Concepts
+
+programming.setCredit(15);
+Module programming = new Module("CO452", "Programming Concepts");
+programming.print();
+ Module Code: CO452: Programming Concepts Credit 15
+
+Course cybersecurity = new Course("MT1CYS1", "Cyber Security");
+Module programming = new Module("CO452", "Programming Concepts");
+cybersecurity.addModule(programming);
+Course programming = new Course("CO452", "Programming Concepts");
+Module cybersecurity = new Module("MT1CYS1", "Cyber Security");
+programming.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+
+    Exception occurred.
+Course programming = new Course("CO452", "Programming Concepts");
+Module cybersecurity = new Module("MT1CYS1", "Cyber Security");
+programming.addModule(cybersecurity);
+programming.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+
+ Module Code: MT1CYS1: Cyber Security Credit 15
+
