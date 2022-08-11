@@ -1,0 +1,93 @@
+Ciaran.addMark(co452Mark);
+Ciaran.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22133695, Ciaran
+
+ Course MT1CYS1: BSc Cyber Security
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  0	29F
+
+
+ Final Course Grade = F
+co452Mark.setMark(120);
+Ciaran.addMark(co452Mark);
+Ciaran.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22133695, Ciaran
+
+ Course MT1CYS1: BSc Cyber Security
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	120NS
+
+ CO452: 	Programming Concepts	  15	120NS
+
+
+ Final Course Grade = B
+Module co453 = new Module("CO453", "App Programming");
+cybersecurity.addModule(co453);
+Module co456 = new Module("CO456", "Web Dev");
+cybersecurity.addModule(co456);
+Module co450 = new Module("CO450", "Computer Architectures");
+cybersecurity.addModule(co450);
+Module co404 = new Module("CO404", "Cyber Threat");
+cybersecurity.addModule(co404);
+ModuleMark co453Mark = new ModuleMark(co453);
+co453Mark.setMark(50);
+co452Mark.setMark(50);
+ModuleMark co456Mark = new ModuleMark(co456);
+co456Mark.setMark(50);
+ModuleMark co450Mark = new ModuleMark(co450);
+co450Mark.setMark(50);
+ModuleMark co404Mark = new ModuleMark(co404);
+co404Mark.setMark(50);
+Ciaran.addMark(co452Mark);
+Ciaran.addMark(co453Mark);
+Ciaran.addMark(co456Mark);
+Ciaran.addMark(co450Mark);
+Ciaran.addMark(co404Mark);
+Ciaran.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22133695, Ciaran
+
+ Course MT1CYS1: BSc Cyber Security
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	50C
+
+ CO452: 	Programming Concepts	  15	50C
+
+ CO452: 	Programming Concepts	  15	50C
+
+ CO453: 	App Programming	  15	50C
+
+ CO456: 	Web Dev	  15	50C
+
+ CO450: 	Computer Architectures	  15	50C
+
+ CO404: 	Cyber Threat	  15	50C
+
+
+ Final Course Grade = A
