@@ -1,0 +1,19 @@
+Ciaran.addMark(co452Mark);
+Ciaran.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22133695, Ciaran
+
+ Course MT1CYS1: BSc Cyber Security
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  0	29F
+
+
+ Final Course Grade = F
