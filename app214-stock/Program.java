@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Program here.
+ * This class runs the main program code in the StockApp class.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Ciaran Byrne)
+ * @version 
  */
 public class Program
 {
