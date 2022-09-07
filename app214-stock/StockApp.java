@@ -53,10 +53,12 @@ public class StockApp
         {
             int id = reader.getInt("Please enter ID: ");
             String name = reader.getString("Please enter name of the product: ");
+            int stockAmount = reader.getInt("Please enter how many are in stock: ");
             Product product = new Product(id, name);
             stock.add(product);
             System.out.println("Product " + product.getID()
-                +", " + product.getName() + " has been added");
+                +", " + product.getName() + " has been added " + " with " 
+                + stockAmount + " in stock ");
         }
         else if(choice.equals("print"))
         {
@@ -67,8 +69,23 @@ public class StockApp
             int id = reader.getInt("Please enter ID: ");
             String name = reader.getString("Please enter name of the product: ");
             Product product = new Product(id, name);
+            stock.remove(product);
             System.out.println("Product " + product.getID()
                 +", " + product.getName() + " has been removed");
+        }
+        else if(choice.equals("buy"))
+        {
+            stock.print();
+            int id = reader.getInt("Please enter the ID of the stock you wish to buy: ");
+            int amount = reader.getInt("Please enter how many, from 1 to 10: ");
+            stock.buyProduct(id, amount);
+        }
+        else if(choice.equals("sell"))
+        {
+            stock.print();
+            int id = reader.getInt("Please enter the ID of the stock you wish to sell: ");
+            int amount = reader.getInt("Please enter how many you wish to sell, from 1 to 10: ");
+            stock.sellProduct(id, amount);
         }
         
         return false;
@@ -83,6 +100,8 @@ public class StockApp
         System.out.println("    Add:        Add a new product");
         System.out.println("    Remove:     Remove an old product");
         System.out.println("    Print:      Print all products");
+        System.out.println("    Buy:        Buy quantity of stock");
+        System.out.println("    Sell:       Sell quantity of stock");
         System.out.println("    Quit:       Quit the program");
         System.out.println();        
     }
